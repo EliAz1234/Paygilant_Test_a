@@ -84,7 +84,6 @@ public class SDKScan {
                                         @Override
                                         public void onVerificationFinish(double verificationScore, double threshold) {
 
-
                                             if (BuildConfig.DEBUG) {
                                                 Log.d("SCORE_FACE", verificationScore + "," + threshold);
                                             }
